@@ -1,0 +1,24 @@
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Fichiers Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers sensibles
+.env
+*.env
+secrets.py
+
+# Fichiers de build et dépendances
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
