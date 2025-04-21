@@ -17,7 +17,8 @@ export default function Landingpage(){
 
                     </a>
 
-                    <a className={'p-2 rounded-full bg-green-700 text-white font-quicksand font-semibold'}> Connexion</a>
+                    <Link to={'/home'}><a
+                        className={'p-2 rounded-full bg-green-700 text-white font-quicksand font-semibold'}> Connexion</a></Link>
 
                 </div>
             </ScrollRevealItem>

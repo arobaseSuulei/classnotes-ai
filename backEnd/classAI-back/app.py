@@ -14,7 +14,7 @@ def index():
     try:
         transcript_main()
         summarize_main()
-        return "Transcription et résumé terminés avec succès ✅"
+        return "Transcription et résumé terminés avec succès ✅ !!"
     except Exception as e:
         return f"Erreur pendant l'exécution : {e}"
 

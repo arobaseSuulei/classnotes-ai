@@ -62,11 +62,12 @@ export default function App() {
                     ) : (
                         <>
 
-                            <Route  path={"/"} element={<Home/>}/>
+
+                            <Route  path={"/"} element={<Landingpage/>}/>
                             <Route path="/New" element={<Project/>}/>
                             <Route path="/Read/:id" element={<Read/>}/>
                             <Route  path={"/home"} element={<Home/>}/>
-                            <Route  path={"/lp"} element={<Landingpage/>}/>
+
                         </>
                     )}
                 </Routes>

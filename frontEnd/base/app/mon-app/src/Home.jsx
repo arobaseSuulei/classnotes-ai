@@ -16,6 +16,11 @@ export default function Home() {
                     <img className={'w-24 rounded-full'} src={'logo.png'} alt="logo"/>
                 </Link>
 
+                <nav className={'flex gap-2 items-center'}>
+                    <a className={'text-xs font-poppins'}>connecté</a>
+                    <img className={'rounded-full w-10'} src={'user.png'} alt="user"/>
+                </nav>
+
 
 
             </div>
