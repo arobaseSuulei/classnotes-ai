@@ -46,7 +46,14 @@ export default function App() {
             <Router>
 
                 <Routes>
-                    {!session ? (
+                    <Route path="/" element={<Landingpage/>}/> {/* La Landingpage en premier */}
+                    {session ? (
+                        <>
+                            <Route path="/New" element={<Project/>}/>
+                            <Route path="/Read/:id" element={<Read/>}/>
+                            <Route  path={"/home"} element={<Home/>}/>
+                        </>
+                    ) : (
                         <Route
                             path="*"
                             element={
@@ -59,16 +66,6 @@ export default function App() {
                                 </div>
                             }
                         />
-                    ) : (
-                        <>
-
-
-                            <Route  path={"/"} element={<Landingpage/>}/>
-                            <Route path="/New" element={<Project/>}/>
-                            <Route path="/Read/:id" element={<Read/>}/>
-                            <Route  path={"/home"} element={<Home/>}/>
-
-                        </>
                     )}
                 </Routes>
             </Router>
@@ -77,4 +74,3 @@ export default function App() {
 }
 
 //  <Route path="/" element={<Landingpage/>}/>
-

@@ -68,7 +68,7 @@ export default function DragComponent({ onFileUpload }) {
                 onUpload={uploadFiles}
                 onDelete={deleteFile}
                 count={2}
-                formats={["mp3", "wav", "ogg"]}
+                formats={["wav", "ogg"]}
                 disabled={isUploading}
             />
         </div>
