@@ -184,7 +184,7 @@ export function CustomDragDrop({
                         or drag and drop
                     </div>
                     <div className="text-[10px] font-normal text-gray-500">
-                        Only one file MP3, WAV or OGG
+                        Only one file WAV or OGG
                     </div>
                 </div>
             </div>

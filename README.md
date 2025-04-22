@@ -36,7 +36,7 @@ Imagine : tu enregistres ton cours, tu l’envoies à l’application, et hop �
 ## ⚙️ Installation rapide
 
 Le frontend est déjà déployé sur Vercel — pas besoin de le lancer en local si tu veux simplement tester l’app côté client.
-pixelblue-hackaton.vercel.app
+https://pixelblue-hackaton.vercel.app/
 
 ### 🔹 Frontend
 
