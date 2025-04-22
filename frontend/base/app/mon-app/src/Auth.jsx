@@ -18,7 +18,7 @@ export default function Auth() {
         } else {
             const { error } = await supabase.auth.signUp({ email, password })
             if (error) alert('Erreur sign-up : ' + error.message)
-            else alert('Inscription réussie ! Vérifie ton mail si besoin.')
+            else alert('Inscription réussie ! Vérifie ta boite mail .')
         }
     }
 
