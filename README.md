@@ -49,11 +49,16 @@ npm start
 ### 🔹 BackEnd --- python 3.10+
 
 
-### sous macOS
+### sous macOS/ Linux
 
 ```bash
 cd backend/model
+python3 -m venv venv
 source venv/bin/activate
+
+# installer les dépendances via requirements.txt
+pip install -r requirements.txt
+
 python3 app.py
 
 ```
