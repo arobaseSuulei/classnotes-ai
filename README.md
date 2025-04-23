@@ -54,7 +54,7 @@ npm start
 ```bash
 cd backend/model
 source venv/bin/activate
-flask-run  #ou python3 app.py
+python3 app.py
 
 ```
 
