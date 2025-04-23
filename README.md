@@ -79,6 +79,15 @@ flask-run  #ou python3 app.py
 
 ```
 
+
+## 👥 Contributeurs
+
+- **Diallo Souleymane** - _FrontEnd & ai_ - (https://github.com/arobaseSuulei)
+-  **Mohamed Ismail Mekki Berrada** - _Développeur principal_ -https://github.com/MB-ismail)
+
+Merci à toutes les personnes qui contribueront à l’avenir !
+
+
 🔁 Actualiser le serveur http://127.0.0.1:5000/ à chaque lancement d'un nouveau projet (confère l'app)
 
 
