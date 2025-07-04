@@ -35,7 +35,7 @@ export default function Home() {
 
             <div className={' fixed  bottom-0 left-2 right-2   my-4 '}>
                 <div className={"sm:mx-96"}>
-                    <Link to={'/New'}><NavBottom/></Link>
+                    <NavBottom/>
                 </div>
             </div>
         </div>
