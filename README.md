@@ -3,6 +3,8 @@
 **ClassNotes Ai** est une application qui transforme les **cours oraux** en **résumés intelligents**, accessibles en quelques secondes.  
 Elle est pensée pour les étudiants, les enseignants, ou toute personne souhaitant **revenir facilement sur un contenu audio dense.**
 
+DEMO: https://youtu.be/kS9JS3TwqLo
+
 ---
 
 ## 🧠 Contexte
