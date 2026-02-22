@@ -86,6 +86,7 @@ flask-run  #ou python3 app.py
 
 - **Diallo Souleymane** - _FrontEnd & ai_ - (https://github.com/arobaseSuulei)
 -  **Mohamed Ismail Mekki Berrada** - _backEnd dev_ -https://github.com/MB-ismail)
+- **Ouadoud Ayoub** - _backEnd dev_
 
 Merci à toutes les personnes qui contribueront à l’avenir !
 
